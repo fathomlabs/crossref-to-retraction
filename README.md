@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## stream-crossref-to-retraction
 
 This is a tiny module that converts CrossRef metadata to the format used in OpenRetractions.
@@ -31,3 +32,7 @@ retractions.on('data', function (data) {
 To the extent possible by law, we transfer any rights we have in the this code to the public domain. Specifically, we do so using the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 You can do whatever you want with this code. No need to credit us, link to us, include any license, or anything else. But if you want to do those things, you're free to do that too.
+=======
+# stream-crossref-to-retraction
+convert crossref API metadata records to openretractions format, as a fucntion or a stream
+>>>>>>> 27ffe0d1ce374c89d529fee334b78891cd04ff4b
