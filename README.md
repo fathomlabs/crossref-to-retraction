@@ -1,4 +1,4 @@
-## crossref-to-retraction [![npm](https://img.shields.io/npm/v/crossref-to-retraction.svg)](https://npmjs.com/package/crossref-to-retraction)
+## crossref-to-retraction [![npm](https://img.shields.io/npm/v/crossref-to-retraction.svg?style=flat-square)](https://npmjs.com/package/crossref-to-retraction) [![license-CC0](https://img.shields.io/badge/license-CC0-ff69b4.svg?style=flat-square](https://github.com/fathomlabs/crossref-to-retraction/blob/master/LICENSE)
 
 This is a tiny module that converts CrossRef metadata to the format used in OpenRetractions.
 
