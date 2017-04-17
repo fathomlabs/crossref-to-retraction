@@ -1,0 +1,237 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        6
+      ]
+    ],
+    "date-time": "2017-04-06T07:33:22Z",
+    "timestamp": 1491464002919
+  },
+  "update-to": [
+    {
+      "updated": {
+        "date-parts": [
+          [
+            2013,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2013-02-26T00:00:00Z",
+        "timestamp": 1361836800000
+      },
+      "DOI": "10.1002/job.1787",
+      "type": "correction",
+      "label": "Correction"
+    }
+  ],
+  "publisher": "Wiley-Blackwell",
+  "issue": "3",
+  "license": [
+    {
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2015-09-01T00:00:00Z",
+        "timestamp": 1441065600000
+      },
+      "delay-in-days": 917,
+      "content-version": "tdm"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "J. Organiz. Behav."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1002/job.1858",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        2,
+        26
+      ]
+    ],
+    "date-time": "2013-02-26T08:53:53Z",
+    "timestamp": 1361868833000
+  },
+  "page": "426-426",
+  "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Erratum: Cognitive and affective identification: Exploring the links between different forms of social identification and personality with work attitudes and behavior"
+  ],
+  "prefix": "10.1002",
+  "volume": "34",
+  "author": [
+    {
+      "given": "Michael D.",
+      "family": "Johnson",
+      "affiliation": [
+        {
+          "name": "University of Washington; Seattle Washington U.S.A."
+        }
+      ]
+    },
+    {
+      "given": "Frederick P.",
+      "family": "Morgeson",
+      "affiliation": [
+        {
+          "name": "Michigan State University; East Lansing Michigan U.S.A."
+        }
+      ]
+    },
+    {
+      "given": "David R.",
+      "family": "Hekman",
+      "affiliation": [
+        {
+          "name": "University of Colorado; Denver Colorado U.S.A."
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        2,
+        26
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "10.1002/job.1858-BIB0001|job1858-cit-0001",
+      "author": "Albert",
+      "first-page": "1",
+      "year": "1998",
+      "volume-title": "Identity in organizations: Building theory through conversations"
+    },
+    {
+      "key": "10.1002/job.1858-BIB0002|job1858-cit-0002",
+      "author": "Albert",
+      "first-page": "209",
+      "year": "1998",
+      "volume-title": "Identity in organizations: Building theory through conversations"
+    },
+    {
+      "key": "10.1002/job.1858-BIB0003|job1858-cit-0003",
+      "first-page": "325",
+      "article-title": "Identification in organizations: An examination of four fundamental questions",
+      "volume": "34",
+      "author": "Ashforth",
+      "year": "2008",
+      "journal-title": "Journal of Management"
+    },
+    {
+      "key": "10.1002/job.1858-BIB0004|job1858-cit-0004",
+      "first-page": "239",
+      "article-title": "A three-factor model of social identity",
+      "volume": "3",
+      "author": "Cameron",
+      "year": "2004",
+      "journal-title": "Self and Identity"
+    },
+    {
+      "key": "10.1002/job.1858-BIB0005|job1858-cit-0005",
+      "first-page": "677",
+      "article-title": "Group-based emotions as determinants of ingroup identification",
+      "volume": "41",
+      "author": "Kessler",
+      "year": "2005",
+      "journal-title": "Journal of Experimental Social Psychology"
+    }
+  ],
+  "container-title": [
+    "Journal of Organizational Behavior"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjob.1858",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        29
+      ]
+    ],
+    "date-time": "2017-03-29T05:25:39Z",
+    "timestamp": 1490765139000
+  },
+  "score": 1,
+  "subtitle": [
+    "Cognitive and affective identification erratum"
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        2,
+        26
+      ]
+    ]
+  },
+  "references-count": 5,
+  "URL": "http://dx.doi.org/10.1002/job.1858",
+  "ISSN": [
+    "0894-3796"
+  ],
+  "issn-type": [
+    {
+      "value": "0894-3796",
+      "type": "print"
+    }
+  ],
+  "subject": [
+    "Applied Psychology",
+    "Organizational Behavior and Human Resource Management",
+    "Sociology and Political Science",
+    "Psychology(all)"
+  ],
+  "assertion": [
+    {
+      "value": "2013-02-26",
+      "name": "published_online",
+      "label": "Published Online",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}
