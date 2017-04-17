@@ -1,6 +1,6 @@
 {
   "name": "crossref-to-retraction",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "convert crossref API metadata records to openretractions format, as a function or a stream",
   "main": "index.js",
   "scripts": {
