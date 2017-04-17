@@ -1,17 +1,21 @@
-## stream-crossref-to-retraction
+## crossref-to-retraction [![npm](https://img.shields.io/npm/v/crossref-to-retraction.svg)](https://npmjs.com/package/crossref-to-retraction)
 
 This is a tiny module that converts CrossRef metadata to the format used in OpenRetractions.
+
+The module exports a convert function (`.convert()`) and a through-stream (`.stream()`).
+
+The input must be a CrossRef metadata **update** entry, i.e. it must have the key `update-to`. Passing in an entry that is not an update with throw an error.
 
 ## install
 
 ```bash
-npm install --save stream-crossref-to-retraction
+npm install --save crossref-to-retraction
 ```
 
 ## usage
 
 ```js
-var getretraction = require('stream-crossref-to-retraction')
+var getretraction = require('crossref-to-retraction')
 
 // .convert is a function that converts a single object
 var retraction_object = getretraction.convert(raw_crossref_object)
@@ -19,7 +23,7 @@ var retraction_object = getretraction.convert(raw_crossref_object)
 // .stream is a through stream that converts an input stream
 var retractions = getretraction.stream()
 
-retractions.pipe(crossrefStream)
+some_crossref_stream.pipe(retractions)
 
 retractions.on('data', function (data) {
   // data is now an OpenRetractions format object

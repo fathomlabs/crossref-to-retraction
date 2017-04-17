@@ -1,6 +1,7 @@
 const through = require('through2')
 
 const convert = data => {
+  if (!data['update-to']) throw new Error('CrossRef entry is not an update')
   return {
     retracted: data['update-to'][0].type == 'retraction',
     timestamp: data['update-to'][0].updated.timestamp,

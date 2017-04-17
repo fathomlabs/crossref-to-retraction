@@ -1,6 +1,6 @@
 {
-  "name": "stream-crossref-to-retraction",
-  "version": "0.0.1",
+  "name": "crossref-to-retraction",
+  "version": "0.0.0",
   "description": "convert crossref API metadata records to openretractions format, as a function or a stream",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fathomlabs/stream-crossref-to-retraction.git"
+    "url": "https://github.com/fathomlabs/crossref-to-retraction.git"
   },
   "keywords": [
     "crossref",
     "openretractions",
-    "stream",
-    "convert"
+    "convert",
+    "metadata"
   ],
   "author": "Fathom Labs Ltd. (Nairobi, Kenya)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fathomlabs/stream-crossref-to-retraction/issues"
+    "url": "https://github.com/fathomlabs/crossref-to-retraction/issues"
   },
-  "homepage": "https://github.com/fathomlabs/stream-crossref-to-retraction#readme",
+  "homepage": "https://github.com/fathomlabs/crossref-to-retraction#readme",
   "devDependencies": {
     "deeper": "^2.1.0",
     "is-stream": "^1.1.0",
