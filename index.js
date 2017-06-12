@@ -18,12 +18,13 @@ const convert = data => {
 }
 
 const crossref2retraction = (data, enc, done) => {
+  let converted
   try {
-    const converted = convert(data)
-    done(null, converted)
+    converted = convert(data)
   } catch (e) {
-    done(e)
+    return done(e)
   }
+  return done(null, converted)
 }
 
 module.exports = {
