@@ -8,11 +8,11 @@ const convert = data => {
     updates: [
       {
         timestamp: data.indexed.timestamp,
-        doi: data.DOI,
+        identifier: { doi: data.DOI },
         type: data['update-to'][0].type
       }
     ],
-    doi: data['update-to'][0].DOI,
+    identifier: { doi: data['update-to'][0].DOI },
     journal: data['container-title'][0],
     publisher: data.publisher,
     title: data.title[0]
