@@ -5,11 +5,13 @@ const convert = data => {
   return {
     retracted: data['update-to'][0].type == 'retraction',
     timestamp: data['update-to'][0].updated.timestamp,
-    update: {
-      timestamp: data.indexed.timestamp,
-      doi: data.DOI,
-      type: data['update-to'][0].type
-    },
+    updates: [
+      {
+        timestamp: data.indexed.timestamp,
+        doi: data.DOI,
+        type: data['update-to'][0].type
+      }
+    ],
     doi: data['update-to'][0].DOI,
     journal: data['container-title'][0],
     publisher: data.publisher,
