@@ -1,9 +1,20 @@
 const through = require('through2')
 
+const isRetraction = data => {
+  if (data['update-to'][0].type.toLowerCase().trim() == 'retraction') {
+    console.log('properly reported retracion')
+    return true
+  } else if (/^retract(ed|ion)/.test(data.title[0].toLowerCase().trim())) {
+    console.log('improperly reported retraction')
+    return true
+  }
+  return false
+}
+
 const convert = data => {
   if (!data['update-to']) throw new Error('CrossRef entry is not an update')
   return {
-    retracted: data['update-to'][0].type == 'retraction',
+    retracted: isRetraction(data),
     timestamp: data['update-to'][0].updated.timestamp,
     updates: [
       {
